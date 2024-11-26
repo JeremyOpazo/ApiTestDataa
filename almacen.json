@@ -1,0 +1,25 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "username": "jeremy",
+      "email": "jeremy@profesor.cl",
+      "password": "duoc12345",
+      "isactive": true
+    },
+    {
+      "id": "2",
+      "username": "jose",
+      "email": "jose@profesor.cl",
+      "password": "654321",
+      "isactive": true
+    },
+    {
+      "id": "088b",
+      "username": "marcelo",
+      "email": "marcelo@duoc.cl",
+      "password": "duoc1224",
+      "isactive": true
+    }
+  ]
+}
