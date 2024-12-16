@@ -1,25 +1,249 @@
 {
-  "usuarios": [
+  "asignaturas": [
     {
       "id": "1",
-      "username": "jeremy",
-      "email": "jeremy@profesor.cl",
-      "password": "duoc12345",
-      "isactive": true
+      "nombre": "Matematicas",
+      "profesor": "jeremy"
     },
     {
       "id": "2",
-      "username": "jose",
-      "email": "jose@profesor.cl",
-      "password": "654321",
-      "isactive": true
+      "nombre": "Ingles",
+      "profesor": "jeremy"
+    },
+    {
+      "id": "1",
+      "nombre": "Lenguaje",
+      "profesor": "jeremy"
+    },
+    {
+      "id": "1",
+      "nombre": "Etica",
+      "profesor": "jeremy"
+    }
+  ],
+  "justificaciones": [
+    {
+      "id": "1",
+      "nombre": "jeremy",
+      "asignatura": "Ingles",
+      "motivo": "No pude asistir por motivos personales",
+      "comentarioProfesor": ""
+    },
+    {
+      "id": "2",
+      "nombre": "Yohan",
+      "asignatura": "Matematcica",
+      "motivo": "Dolor de cabeza",
+      "comentarioProfesor": "Ok"
+    },
+    {
+      "id": "3",
+      "nombre": "a",
+      "asignatura": "Lenguaje",
+      "motivo": "Tengo licencia medica",
+      "comentarioProfesor": ""
+    },
+    {
+      "id": "4",
+      "nombre": "b",
+      "asignatura": "Etica",
+      "motivo": "Funeral",
+      "comentarioProfesor": "ok"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "nombre": "jeremy12",
+      "correo": "jeremy@duoc.cl",
+      "contraseña": "duoc12345",
+      "rut": 121212,
+      "isactive": true,
+      "avatarUrl": "assets/user-vector-icon"
+    },
+    {
+      "id": "2",
+      "nombre": "jose1212",
+      "correo": "jose@duoc.cl",
+      "contraseña": "654321",
+      "rut": 121212,
+      "isactive": true,
+      "avatarUrl": ""
     },
     {
       "id": "088b",
-      "username": "marcelo",
-      "email": "marcelo@duoc.cl",
-      "password": "duoc1224",
+      "nombre": "marcelo",
+      "correo": "marcelo@duoc.cl",
+      "contraseña": "duoc1224",
+      "rut": 121212,
+      "isactive": true,
+      "avatarUrl": ""
+    },
+    {
+      "id": "f644",
+      "nombre": "sakki12",
+      "correo": "12121@dsad",
+      "contrasena": "duoc1234",
+      "rut": 121221,
       "isactive": true
+    }
+  ],
+  "docentes": [
+    {
+      "id": "c18b",
+      "nombre": "Jeremy",
+      "correo": "jeremy@profesor.cl",
+      "contrasena": "duoc1234",
+      "rut": 213784234,
+      "isactive": true,
+      "avatarUrl": ""
+    },
+    {
+      "id": "ae3d",
+      "nombre": "Jeremy",
+      "correo": "jeremy@profesor.cl",
+      "contrasena": "duoc1234",
+      "rut": "213784234",
+      "isactive": true,
+      "avatarUrl": ""
+    },
+    {
+      "id": "1d2d",
+      "nombre": "JeremyOpazo",
+      "correo": "opazo@duocuc.cl",
+      "contrasena": "duoc1234",
+      "rut": "213784234",
+      "isactive": true
+    },
+    {
+      "id": "caa6",
+      "nombre": "alonso",
+      "correo": "a@sdusdi",
+      "contrasena": "duoc1234",
+      "rut": 212121,
+      "isactive": true
+    },
+    {
+      "id": "a30e",
+      "nombre": "sakki12",
+      "correo": "asdad@asd",
+      "contrasena": "duoc1234",
+      "rut": 212121,
+      "isactive": true
+    }
+  ],
+  "asistencias": [
+    {
+      "id": "1",
+      "fecha": "2023-11-15",
+      "asignatura": "Ingles",
+      "estudiante": {
+        "id": "1",
+        "username": "jeremy12",
+        "email": "jeremy@duoc.cl",
+        "password": "duoc12345",
+        "isactive": true,
+        "avatarUrl": "assets/user-vector-icon"
+      },
+      "estado": "presente"
+    },
+    {
+      "id": "2",
+      "fecha": "2023-11-15",
+      "asignatura": "Matematicas",
+      "estudiante": {
+        "id": "2",
+        "username": "jose",
+        "email": "jose@duoc.cl",
+        "password": "654321",
+        "isactive": true,
+        "avatarUrl": ""
+      },
+      "estado": "ausente"
+    },
+    {
+      "id": "3",
+      "fecha": "2023-11-16",
+      "asignatura": "Lenguaje",
+      "estudiante": {
+        "id": "088b",
+        "username": "marcelo",
+        "email": "marcelo@duoc.cl",
+        "password": "duoc1224",
+        "isactive": true,
+        "avatarUrl": ""
+      },
+      "estado": "presente"
+    },
+    {
+      "id": "5",
+      "fecha": "2023-11-17",
+      "asignatura": "Matematicas",
+      "estudiante": {
+        "id": "088b",
+        "username": "marcelo",
+        "email": "marcelo@duoc.cl",
+        "password": "duoc1224",
+        "isactive": true,
+        "avatarUrl": ""
+      },
+      "estado": "presente"
+    },
+    {
+      "id": "6",
+      "fecha": "2023-11-20",
+      "asignatura": "Matematicas",
+      "estudiante": {
+        "id": "1",
+        "username": "jeremy12",
+        "email": "jeremy@duoc.cl",
+        "password": "duoc12345",
+        "isactive": true,
+        "avatarUrl": "assets/user-vector-icon"
+      },
+      "estado": "presente"
+    },
+    {
+      "id": "7",
+      "fecha": "2023-11-20",
+      "asignatura": "Matematicas",
+      "estudiante": {
+        "id": "2",
+        "username": "jose",
+        "email": "jose@duoc.cl",
+        "password": "654321",
+        "isactive": true,
+        "avatarUrl": ""
+      },
+      "estado": "presente"
+    },
+    {
+      "id": "8",
+      "fecha": "2023-11-21",
+      "asignatura": "Matematicas",
+      "estudiante": {
+        "id": "088b",
+        "username": "marcelo",
+        "email": "marcelo@duoc.cl",
+        "password": "duoc1224",
+        "isactive": true,
+        "avatarUrl": ""
+      },
+      "estado": "ausente"
+    },
+    {
+      "id": "9",
+      "fecha": "2023-11-22",
+      "asignatura": "Matematicas",
+      "estudiante": {
+        "id": "1",
+        "username": "jeremy12",
+        "email": "jeremy@duoc.cl",
+        "password": "duoc12345",
+        "isactive": true,
+        "avatarUrl": "assets/user-vector-icon"
+      },
+      "estado": "presente"
     }
   ]
 }
